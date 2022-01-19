@@ -173,6 +173,6 @@ for file in files:
     except IOError:
         print("File format not supported!")
 
-if output_choice == "1":
+if pilihan == "1":
     sys.stdout.close()
 os.chdir(cwd)
